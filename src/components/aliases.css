@@ -1,0 +1,13 @@
+
+.aliases {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: left;
+    height: fit-content;
+    width: 250px;
+    padding: 10px;
+    margin: 0 ;
+    background-color:  rgb(29, 37, 37);
+    border-radius: 5px;
+}

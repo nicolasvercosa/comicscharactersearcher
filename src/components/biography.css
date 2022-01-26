@@ -1,0 +1,30 @@
+ 
+.bio {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    text-align: left;
+    height: 340px;
+    width: 250px;
+    padding: 10px;
+    margin: 0 10px 0 auto;
+    background-color:  rgb(29, 37, 37);
+    border-radius: 5px;
+}
+ 
+.bio > div {
+    text-align: left;
+    font-size: 14pt;
+
+}
+
+div > span {
+    font-weight: 500;
+    color: rgb(25, 145, 214);
+}
+
+@media screen and (max-width: 640px) {
+    .bio {
+        margin: auto;
+    }
+}
